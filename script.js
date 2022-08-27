@@ -1,3 +1,52 @@
+// to separete the element like https,www,youtube,com
+let  a  = "https://www.youtube.com"
+let b = a.split(".")
+
+let c = b[0]
+let d = c .split(":")
+
+let w = c.split("//")
+
+let first  = d[0]
+console.log(first)
+
+let sec = w[1]
+console.log(sec)
+
+console.log(b[1])
+console.log(b[2])
+
+console.log(
+  "====================================================================================="
+);
+
+// let arr = [1,2,3,4,5,6] // output 4,5,6,1,2,3
+// let firstDiv = arr.slice(3,7)
+// let secDiv  = arr.slice(0,3)
+// let merge = firstDiv .concat(secDiv)
+// console.log(merge)
+
+console.log(
+  "====================================================================================="
+);
+let num = "1,2,3,4,5,6";
+// 2,1,4,3,6, 5 out
+
+for (i = 0; i < num.length; i++) {
+  if (num[i] % 2 == 0) {
+    console.log(num[i] -1);
+  }
+  else if( num[i] % 1 ==0) {
+    console.log (parseInt(num[i] + 1));
+  }
+}
+
+console.log(
+  "====================================================================================="
+);
+
+// separete the vowel letter in the input
+
 // var Vowel='aeiouAEIOU'
 // var nameInput=prompt()
 // var vowelLetter=0;
@@ -32,6 +81,8 @@ console.log(
   "====================================================================================="
 );
 
+// to separete the email id number and name like selvamplkm and 6
+
 // var mail = "selvamplkm123@gmail.com";
 // var number = "";
 // var letters = "";
@@ -52,29 +103,28 @@ console.log(
 // console.log("Letters :" , letters);
 
 console.log(
-    "====================================================================================="
-  );
+  "====================================================================================="
+);
 
+//   var c="ffffnnnnkssssshhhh";
+// var co=1
+// var emp=[]
+// for(i=0;i<c.length;i++){
+//   if(c[i]==c[i+1])
+//   {
+//     co++
 
-  var c="ffffnnnnkssssshhhh";
-var co=1
-var emp=[]
-for(i=0;i<c.length;i++){
-  if(c[i]==c[i+1])
-  {
-    co++
-    
-  }
-  else{
-    if(co==1){
-        emp.push(c[i])
-    }
-    else{
-    var a=c[i]+co
-    console.log(a)
-    emp.push(a)
-    co=1;
-    }
-  }
-}
-console.log(emp)
+//   }
+//   else{
+//     if(co==1){
+//         emp.push(c[i])
+//     }
+//     else{
+//     var a=c[i]+co
+//     console.log(a)
+//     emp.push(a)
+//     co=1;
+//     }
+//   }
+// }
+// console.log(emp)
