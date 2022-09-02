@@ -26,12 +26,12 @@
 // }
 // console.log(empty);
 
-let num = 123456;
-let lastDigit = 0;
-for (let i = 0; i < 6; i++) {
-  let h1 = num % 10;
-  console.log(h1);
-}
+// let num = 123456;
+// let lastDigit = 0;
+// for (let i = 0; i < 6; i++) {
+//   let h1 = num % 10;
+//   console.log(h1);
+// }
 
 console.log(
   "====================================================================================="
