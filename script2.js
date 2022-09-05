@@ -17,17 +17,18 @@
 //     }
 // }
 
-let a = ["one","two","three","four","five"];
-let emp =[]
-let sum = 0
-let vow = ["a" ,"e" ,"i" ,"o" ,"u"]
-for (let i = 0; i < a.length; i++) {
-    let element = a[i];
-    console.log(element);
-    for(let j= 0 ; j < element.length; j++){
-        console.log(element[j]);
-        
+// let a = ["one","two","three","four","five"];
+// let emp =[]
+// let sum = 0
+// let vow = ["a" ,"e" ,"i" ,"o" ,"u"]
+// for (let i = 0; i < a.length; i++) {
+//     let element = a[i];
+//     console.log(element);
+//     for(let j= 0 ; j < element.length; j++){
+//         console.log(element[j]);
 
-    }
-    
-}
+//     }
+
+// }
+
+

@@ -2,6 +2,7 @@ let str = "hello world"
 
 //to display index value of a str 
 console.log(str.charAt(0) ) 
+console.log(str.charCodeAt(0))
 
 //assci value of the element
 console.log(str.charCodeAt(3));
@@ -23,7 +24,7 @@ console.log(str.indexOf("w"));
 console.log(str.lastIndexOf("l"))
 
 // the str start with particular word (to return true or false)
-console.log(str.startsWith("hello"));
+console.log(str.startsWith("g"));
 
 // the str end with particular word (to return true or false)
 console.log(str.endsWith("world"));
@@ -65,4 +66,4 @@ let c = "hello"
 console.log(str.match(c));
 
 //
-console.log(str.matchAll(c));
+// console.log(str.matchAll(c));
