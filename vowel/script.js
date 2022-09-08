@@ -46,3 +46,30 @@ console.log("Input :" ,nameInput)
 console.log("Sum of vowel letter in your input : " ,vowelLetter)
 // var splitInput=nameInput.split('')
 // console.log(splitInput);
+
+
+//// to compare  two str .. print the maximum of the vowel in the the str
+let a = "mariselvam" ;
+let b = "hello"
+let c = ""
+let d =""
+
+let vowels =["a","e","i","o" ,"u"]
+for(let i = 0 ; i<a.length ; i++){
+    if (a[i] === ("a") ||a[i] === ("e") ||a[i] === ("i") ||a[i] === ("o") ||a[i] === ("u") ){
+        console.log( c = c+a[i]);
+    }
+}
+
+for(let j = 0 ; j<b.length ; j++){
+    if (a[j] === ("a") ||a[j] === ("e") ||a[j] === ("i") ||a[j] === ("o") ||a[j] === ("u") ){
+        console.log(d = d+b[j]);
+    }
+}
+
+if (c.length > d.length){
+    console.log("c is greater");
+}
+else {
+    console.log("d id greater");
+}
