@@ -40,44 +40,81 @@
 // input the number to convert the number in reveerse and print in the number in str
 // input 123 output three  one
 
-let a = 123
-let b = a.toString()
-let c = b.split("")
-let d = c.reverse()
+// let a = 123
+// let b = a.toString()
+// let c = b.split("")
+// let d = c.reverse()
 
-for(let i = 0 ; i<d.length ;i++){
-    if (~~(d[i]) === 1){
-        a2 = "one"
-        console.log(a2);
-    }
-    else if (~~(d[i]) === 2){
-         a2 = "two"
-        console.log(a2);
-    }
-    else if (~~(d[i]) === 3){
-         a2 = "three"
-        console.log(a2);
-    } else if (~~(d[i]) === 4){
-         a2 = "four"
-        console.log(a2);
-    } else if (~~(d[i]) === 5){
-         a2 = "five"
-        console.log(a2);
-    } else if (~~(d[i]) === 6){
-        a2 = "six"
-        console.log(a2);
-    } else if (~~(d[i]) === 7){
-         a2 = "seven"
-        console.log(a2);
-    } else if (~~(d[i]) === 8){
-        a2 = "eight"
-        console.log(a2);
-    } else if (~~(d[i]) === 9){
-         a2 = "nine"
-        console.log(a2);
-    } else if (~~(d[i]) === 0){
-         a2 = "zero"
-        console.log(a2);
-    }
+// for(let i = 0 ; i<d.length ;i++){
+//     if (~~(d[i]) === 1){
+//         a2 = "one"
+//         console.log(a2);
+//     }
+//     else if (~~(d[i]) === 2){
+//          a2 = "two"
+//         console.log(a2);
+//     }
+//     else if (~~(d[i]) === 3){
+//          a2 = "three"
+//         console.log(a2);
+//     } else if (~~(d[i]) === 4){
+//          a2 = "four"
+//         console.log(a2);
+//     } else if (~~(d[i]) === 5){
+//          a2 = "five"
+//         console.log(a2);
+//     } else if (~~(d[i]) === 6){
+//         a2 = "six"
+//         console.log(a2);
+//     } else if (~~(d[i]) === 7){
+//          a2 = "seven"
+//         console.log(a2);
+//     } else if (~~(d[i]) === 8){
+//         a2 = "eight"
+//         console.log(a2);
+//     } else if (~~(d[i]) === 9){
+//          a2 = "nine"
+//         console.log(a2);
+//     } else if (~~(d[i]) === 0){
+//          a2 = "zero"
+//         console.log(a2);
+//     }
+// }
 
+
+/////////////////////
+
+for (let i = 1 ; i <= 100; i++ ){
+    let a = i /10
+    let b = Math.floor(a)
+    let c =( b != 7)
+
+    // console.log(c, "c");
+    // console.log(a);
+    // console.log(a);
+    if ((i % 7 !== 0) && ((i % 10 === 7) ) ){
+
+    }
+    else{
+        console.log(i);
+    }
 }
+
+
+let a = [3,7,10,24,8,12] ///[7,8,12,-1,10,24]
+// let b = a.sort((a, b) =>{
+//     return a-b
+// })
+// let b = a.find((ele) =>{
+//     console.log(ele );
+// })
+
+// let b = a.find((ele  , inde) =>{
+//     return ele>inde
+// })
+
+
+// console.log(b);
+
+
+
